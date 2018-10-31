@@ -1,0 +1,50 @@
+body{
+    box-sizing: border-box;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+.nav-list {
+    float: right;
+}
+.nav-item {
+    display: inline-block;
+    
+}
+nav a:hover {
+    background-color:#3b5989;
+}
+nav {
+    font-family: Roboto;
+    font-size: 30px;
+}
+nav a {
+    text-decoration: none;
+    background-color: darkgray;
+    padding: 5px;
+    border-radius: 2px;
+    color: antiquewhite
+}
+img {
+    float: right;
+    width: 240px;
+    margin-left: 5px;
+    margin-bottom: 80px;
+   }
+  
+hr,footer {
+       clear: both;
+   }
+p {
+    font-family: Roboto;
+}
+h1 {
+    font-family: Roboto;
+}
+li {
+    color: #3b5989;
+    font-family: Roboto;
+}
